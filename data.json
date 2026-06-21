@@ -1,5 +1,5 @@
 {
- "updated": null,
+ "updated": "2026-06-21T13:21:26Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -249,7 +249,9 @@
    "g": "K",
    "c": "Houston",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 1
   },
   {
    "d": "2026-06-17",
@@ -259,7 +261,9 @@
    "g": "L",
    "c": "Dallas",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 4,
+   "sb": 2
   },
   {
    "d": "2026-06-18",
@@ -269,7 +273,9 @@
    "g": "L",
    "c": "Toronto",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 0
   },
   {
    "d": "2026-06-18",
@@ -279,7 +285,9 @@
    "g": "K",
    "c": "Mexiko-Stadt",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 3
   },
   {
    "d": "2026-06-18",
@@ -289,7 +297,9 @@
    "g": "A",
    "c": "Atlanta",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 1
   },
   {
    "d": "2026-06-18",
@@ -299,7 +309,9 @@
    "g": "B",
    "c": "Los Angeles",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 4,
+   "sb": 1
   },
   {
    "d": "2026-06-19",
@@ -309,7 +321,9 @@
    "g": "B",
    "c": "Vancouver",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 6,
+   "sb": 0
   },
   {
    "d": "2026-06-19",
@@ -319,7 +333,9 @@
    "g": "A",
    "c": "Guadalajara",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 0
   },
   {
    "d": "2026-06-19",
@@ -329,7 +345,9 @@
    "g": "D",
    "c": "Seattle",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 2,
+   "sb": 0
   },
   {
    "d": "2026-06-20",
@@ -339,7 +357,9 @@
    "g": "C",
    "c": "Boston",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 0,
+   "sb": 1
   },
   {
    "d": "2026-06-20",
@@ -349,7 +369,9 @@
    "g": "C",
    "c": "Philadelphia",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 3,
+   "sb": 0
   },
   {
    "d": "2026-06-20",
@@ -359,7 +381,9 @@
    "g": "D",
    "c": "San Francisco",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 0,
+   "sb": 1
   },
   {
    "d": "2026-06-20",
@@ -369,7 +393,9 @@
    "g": "F",
    "c": "Houston",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 5,
+   "sb": 1
   },
   {
    "d": "2026-06-20",
@@ -379,7 +405,9 @@
    "g": "E",
    "c": "Toronto",
    "tv": "zdf",
-   "p": "group"
+   "p": "group",
+   "sa": 2,
+   "sb": 1
   },
   {
    "d": "2026-06-21",
@@ -389,7 +417,9 @@
    "g": "E",
    "c": "Kansas City",
    "tv": "free",
-   "p": "group"
+   "p": "group",
+   "sa": 0,
+   "sb": 0
   },
   {
    "d": "2026-06-21",
@@ -399,7 +429,9 @@
    "g": "F",
    "c": "Monterrey",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 0,
+   "sb": 4
   },
   {
    "d": "2026-06-21",
