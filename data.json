@@ -1,0 +1,1053 @@
+{
+ "updated": null,
+ "matches": [
+  {
+   "d": "2026-06-11",
+   "t": "21:00",
+   "a": "Mexiko",
+   "b": "Südafrika",
+   "g": "A",
+   "c": "Mexiko-Stadt",
+   "tv": "zdf",
+   "sa": 2,
+   "sb": 0,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-12",
+   "t": "04:00",
+   "a": "Südkorea",
+   "b": "Tschechien",
+   "g": "A",
+   "c": "Guadalajara",
+   "tv": "magenta",
+   "sa": 2,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-12",
+   "t": "21:00",
+   "a": "Kanada",
+   "b": "Bosnien-Herzegowina",
+   "g": "B",
+   "c": "Toronto",
+   "tv": "free",
+   "sa": 1,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-13",
+   "t": "03:00",
+   "a": "USA",
+   "b": "Paraguay",
+   "g": "D",
+   "c": "Los Angeles",
+   "tv": "magenta",
+   "sa": 4,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-13",
+   "t": "21:00",
+   "a": "Katar",
+   "b": "Schweiz",
+   "g": "B",
+   "c": "San Francisco",
+   "tv": "free",
+   "sa": 1,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-14",
+   "t": "00:00",
+   "a": "Brasilien",
+   "b": "Marokko",
+   "g": "C",
+   "c": "New York",
+   "tv": "free",
+   "sa": 1,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-14",
+   "t": "03:00",
+   "a": "Haiti",
+   "b": "Schottland",
+   "g": "C",
+   "c": "Boston",
+   "tv": "free",
+   "sa": 0,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-14",
+   "t": "06:00",
+   "a": "Australien",
+   "b": "Türkei",
+   "g": "D",
+   "c": "Vancouver",
+   "tv": "magenta",
+   "sa": 2,
+   "sb": 0,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-14",
+   "t": "19:00",
+   "a": "Deutschland",
+   "b": "Curaçao",
+   "g": "E",
+   "c": "Houston",
+   "tv": "ard",
+   "sa": 7,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-14",
+   "t": "22:00",
+   "a": "Niederlande",
+   "b": "Japan",
+   "g": "F",
+   "c": "Dallas",
+   "tv": "magenta",
+   "sa": 2,
+   "sb": 2,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-15",
+   "t": "01:00",
+   "a": "Elfenbeinküste",
+   "b": "Ecuador",
+   "g": "E",
+   "c": "Philadelphia",
+   "tv": "free",
+   "sa": 1,
+   "sb": 0,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-15",
+   "t": "04:00",
+   "a": "Schweden",
+   "b": "Tunesien",
+   "g": "F",
+   "c": "Monterrey",
+   "tv": "magenta",
+   "sa": 5,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-15",
+   "t": "18:00",
+   "a": "Spanien",
+   "b": "Kap Verde",
+   "g": "H",
+   "c": "Atlanta",
+   "tv": "free",
+   "sa": 0,
+   "sb": 0,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-15",
+   "t": "21:00",
+   "a": "Belgien",
+   "b": "Ägypten",
+   "g": "G",
+   "c": "Seattle",
+   "tv": "free",
+   "sa": 1,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-16",
+   "t": "00:00",
+   "a": "Saudi-Arabien",
+   "b": "Uruguay",
+   "g": "H",
+   "c": "Miami",
+   "tv": "free",
+   "sa": 1,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-16",
+   "t": "03:00",
+   "a": "Iran",
+   "b": "Neuseeland",
+   "g": "G",
+   "c": "Los Angeles",
+   "tv": "free",
+   "sa": 2,
+   "sb": 2,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-16",
+   "t": "21:00",
+   "a": "Frankreich",
+   "b": "Senegal",
+   "g": "I",
+   "c": "New York",
+   "tv": "magenta",
+   "sa": 3,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-17",
+   "t": "00:00",
+   "a": "Irak",
+   "b": "Norwegen",
+   "g": "I",
+   "c": "Boston",
+   "tv": "magenta",
+   "sa": 1,
+   "sb": 4,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-17",
+   "t": "03:00",
+   "a": "Argentinien",
+   "b": "Algerien",
+   "g": "J",
+   "c": "Kansas City",
+   "tv": "free",
+   "sa": 3,
+   "sb": 0,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-17",
+   "t": "06:00",
+   "a": "Österreich",
+   "b": "Jordanien",
+   "g": "J",
+   "c": "San Francisco",
+   "tv": "free",
+   "sa": 3,
+   "sb": 1,
+   "p": "group"
+  },
+  {
+   "d": "2026-06-17",
+   "t": "19:00",
+   "a": "Portugal",
+   "b": "DR Kongo",
+   "g": "K",
+   "c": "Houston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-17",
+   "t": "22:00",
+   "a": "England",
+   "b": "Kroatien",
+   "g": "L",
+   "c": "Dallas",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-18",
+   "t": "01:00",
+   "a": "Ghana",
+   "b": "Panama",
+   "g": "L",
+   "c": "Toronto",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-18",
+   "t": "04:00",
+   "a": "Usbekistan",
+   "b": "Kolumbien",
+   "g": "K",
+   "c": "Mexiko-Stadt",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-18",
+   "t": "18:00",
+   "a": "Tschechien",
+   "b": "Südafrika",
+   "g": "A",
+   "c": "Atlanta",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-18",
+   "t": "21:00",
+   "a": "Schweiz",
+   "b": "Bosnien-Herzegowina",
+   "g": "B",
+   "c": "Los Angeles",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-19",
+   "t": "00:00",
+   "a": "Kanada",
+   "b": "Katar",
+   "g": "B",
+   "c": "Vancouver",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-19",
+   "t": "03:00",
+   "a": "Mexiko",
+   "b": "Südkorea",
+   "g": "A",
+   "c": "Guadalajara",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-19",
+   "t": "21:00",
+   "a": "USA",
+   "b": "Australien",
+   "g": "D",
+   "c": "Seattle",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-20",
+   "t": "00:00",
+   "a": "Schottland",
+   "b": "Marokko",
+   "g": "C",
+   "c": "Boston",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-20",
+   "t": "02:30",
+   "a": "Brasilien",
+   "b": "Haiti",
+   "g": "C",
+   "c": "Philadelphia",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-20",
+   "t": "05:00",
+   "a": "Türkei",
+   "b": "Paraguay",
+   "g": "D",
+   "c": "San Francisco",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-20",
+   "t": "19:00",
+   "a": "Niederlande",
+   "b": "Schweden",
+   "g": "F",
+   "c": "Houston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-20",
+   "t": "22:00",
+   "a": "Deutschland",
+   "b": "Elfenbeinküste",
+   "g": "E",
+   "c": "Toronto",
+   "tv": "zdf",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-21",
+   "t": "02:00",
+   "a": "Ecuador",
+   "b": "Curaçao",
+   "g": "E",
+   "c": "Kansas City",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-21",
+   "t": "06:00",
+   "a": "Tunesien",
+   "b": "Japan",
+   "g": "F",
+   "c": "Monterrey",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-21",
+   "t": "18:00",
+   "a": "Spanien",
+   "b": "Saudi-Arabien",
+   "g": "H",
+   "c": "Atlanta",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-21",
+   "t": "21:00",
+   "a": "Belgien",
+   "b": "Iran",
+   "g": "G",
+   "c": "Los Angeles",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-22",
+   "t": "00:00",
+   "a": "Uruguay",
+   "b": "Kap Verde",
+   "g": "H",
+   "c": "Miami",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-22",
+   "t": "03:00",
+   "a": "Neuseeland",
+   "b": "Ägypten",
+   "g": "G",
+   "c": "Vancouver",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-22",
+   "t": "19:00",
+   "a": "Argentinien",
+   "b": "Österreich",
+   "g": "J",
+   "c": "Dallas",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-22",
+   "t": "23:00",
+   "a": "Frankreich",
+   "b": "Irak",
+   "g": "I",
+   "c": "Philadelphia",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-23",
+   "t": "02:00",
+   "a": "Norwegen",
+   "b": "Senegal",
+   "g": "I",
+   "c": "New York",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-23",
+   "t": "05:00",
+   "a": "Jordanien",
+   "b": "Algerien",
+   "g": "J",
+   "c": "San Francisco",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-23",
+   "t": "19:00",
+   "a": "Portugal",
+   "b": "Usbekistan",
+   "g": "K",
+   "c": "Houston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-23",
+   "t": "22:00",
+   "a": "England",
+   "b": "Ghana",
+   "g": "L",
+   "c": "Boston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-24",
+   "t": "01:00",
+   "a": "Panama",
+   "b": "Kroatien",
+   "g": "L",
+   "c": "Toronto",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-24",
+   "t": "04:00",
+   "a": "Kolumbien",
+   "b": "DR Kongo",
+   "g": "K",
+   "c": "Guadalajara",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-24",
+   "t": "21:00",
+   "a": "Schweiz",
+   "b": "Kanada",
+   "g": "B",
+   "c": "Vancouver",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-24",
+   "t": "21:00",
+   "a": "Bosnien-Herzegowina",
+   "b": "Katar",
+   "g": "B",
+   "c": "Seattle",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "00:00",
+   "a": "Schottland",
+   "b": "Brasilien",
+   "g": "C",
+   "c": "Miami",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "00:00",
+   "a": "Marokko",
+   "b": "Haiti",
+   "g": "C",
+   "c": "Atlanta",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "03:00",
+   "a": "Tschechien",
+   "b": "Mexiko",
+   "g": "A",
+   "c": "Mexiko-Stadt",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "03:00",
+   "a": "Südafrika",
+   "b": "Südkorea",
+   "g": "A",
+   "c": "Monterrey",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "22:00",
+   "a": "Ecuador",
+   "b": "Deutschland",
+   "g": "E",
+   "c": "New York",
+   "tv": "ard",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-25",
+   "t": "22:00",
+   "a": "Curaçao",
+   "b": "Elfenbeinküste",
+   "g": "E",
+   "c": "Philadelphia",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "01:00",
+   "a": "Tunesien",
+   "b": "Niederlande",
+   "g": "F",
+   "c": "Kansas City",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "01:00",
+   "a": "Japan",
+   "b": "Schweden",
+   "g": "F",
+   "c": "Dallas",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "04:00",
+   "a": "Türkei",
+   "b": "USA",
+   "g": "D",
+   "c": "Los Angeles",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "04:00",
+   "a": "Paraguay",
+   "b": "Australien",
+   "g": "D",
+   "c": "San Francisco",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "21:00",
+   "a": "Norwegen",
+   "b": "Frankreich",
+   "g": "I",
+   "c": "Boston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-26",
+   "t": "21:00",
+   "a": "Senegal",
+   "b": "Irak",
+   "g": "I",
+   "c": "Toronto",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "02:00",
+   "a": "Uruguay",
+   "b": "Spanien",
+   "g": "H",
+   "c": "Guadalajara",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "02:00",
+   "a": "Kap Verde",
+   "b": "Saudi-Arabien",
+   "g": "H",
+   "c": "Houston",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "05:00",
+   "a": "Neuseeland",
+   "b": "Belgien",
+   "g": "G",
+   "c": "Vancouver",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "05:00",
+   "a": "Ägypten",
+   "b": "Iran",
+   "g": "G",
+   "c": "Seattle",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "23:00",
+   "a": "Panama",
+   "b": "England",
+   "g": "L",
+   "c": "New York",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-27",
+   "t": "23:00",
+   "a": "Kroatien",
+   "b": "Ghana",
+   "g": "L",
+   "c": "Philadelphia",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-28",
+   "t": "01:30",
+   "a": "Kolumbien",
+   "b": "Portugal",
+   "g": "K",
+   "c": "Miami",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-28",
+   "t": "01:30",
+   "a": "DR Kongo",
+   "b": "Usbekistan",
+   "g": "K",
+   "c": "Atlanta",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-28",
+   "t": "04:00",
+   "a": "Jordanien",
+   "b": "Argentinien",
+   "g": "J",
+   "c": "Dallas",
+   "tv": "magenta",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-28",
+   "t": "04:00",
+   "a": "Algerien",
+   "b": "Österreich",
+   "g": "J",
+   "c": "Kansas City",
+   "tv": "free",
+   "p": "group"
+  },
+  {
+   "d": "2026-06-28",
+   "t": "21:00",
+   "a": "2. Gruppe A",
+   "b": "2. Gruppe B",
+   "c": "Los Angeles",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-06-29",
+   "t": "19:00",
+   "a": "1. Gruppe C",
+   "b": "2. Gruppe F",
+   "c": "Houston",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-06-29",
+   "t": "22:30",
+   "a": "1. Gruppe E",
+   "b": "3. Gr. A/B/C/D/F",
+   "c": "Boston",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-06-30",
+   "t": "03:00",
+   "a": "1. Gruppe F",
+   "b": "2. Gruppe C",
+   "c": "Monterrey",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-06-30",
+   "t": "19:00",
+   "a": "2. Gruppe E",
+   "b": "2. Gruppe I",
+   "c": "Dallas",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-06-30",
+   "t": "23:00",
+   "a": "1. Gruppe I",
+   "b": "3. Gr. C/D/F/G/H",
+   "c": "New York",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-01",
+   "t": "03:00",
+   "a": "1. Gruppe A",
+   "b": "3. Gr. C/E/F/H/I",
+   "c": "Mexiko-Stadt",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-01",
+   "t": "18:00",
+   "a": "1. Gruppe L",
+   "b": "3. Gr. E/H/I/J/K",
+   "c": "Atlanta",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-01",
+   "t": "22:00",
+   "a": "1. Gruppe G",
+   "b": "3. Gr. A/E/H/I/J",
+   "c": "Seattle",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-02",
+   "t": "02:00",
+   "a": "1. Gruppe D",
+   "b": "3. Gr. B/E/F/I/J",
+   "c": "San Francisco",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-02",
+   "t": "21:00",
+   "a": "1. Gruppe H",
+   "b": "2. Gruppe J",
+   "c": "Los Angeles",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-03",
+   "t": "01:00",
+   "a": "2. Gruppe K",
+   "b": "2. Gruppe L",
+   "c": "Toronto",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-03",
+   "t": "05:00",
+   "a": "1. Gruppe B",
+   "b": "3. Gr. E/F/G/I/J",
+   "c": "Vancouver",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-03",
+   "t": "20:00",
+   "a": "2. Gruppe D",
+   "b": "2. Gruppe G",
+   "c": "Dallas",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-04",
+   "t": "00:00",
+   "a": "1. Gruppe J",
+   "b": "2. Gruppe H",
+   "c": "Miami",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-04",
+   "t": "03:30",
+   "a": "1. Gruppe K",
+   "b": "3. Gr. D/E/I/J/L",
+   "c": "Kansas City",
+   "tv": "tbd",
+   "p": "r32"
+  },
+  {
+   "d": "2026-07-04",
+   "t": "19:00",
+   "a": "Sieger 1/16-Finale 1",
+   "b": "Sieger 1/16-Finale 3",
+   "c": "Houston",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-04",
+   "t": "23:00",
+   "a": "Sieger 1/16-Finale 2",
+   "b": "Sieger 1/16-Finale 5",
+   "c": "Philadelphia",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-05",
+   "t": "22:00",
+   "a": "Sieger 1/16-Finale 4",
+   "b": "Sieger 1/16-Finale 6",
+   "c": "New York",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-06",
+   "t": "02:00",
+   "a": "Sieger 1/16-Finale 7",
+   "b": "Sieger 1/16-Finale 8",
+   "c": "Mexiko-Stadt",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-06",
+   "t": "21:00",
+   "a": "Sieger 1/16-Finale 11",
+   "b": "Sieger 1/16-Finale 12",
+   "c": "Dallas",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-07",
+   "t": "02:00",
+   "a": "Sieger 1/16-Finale 9",
+   "b": "Sieger 1/16-Finale 10",
+   "c": "Seattle",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-07",
+   "t": "18:00",
+   "a": "Sieger 1/16-Finale 14",
+   "b": "Sieger 1/16-Finale 16",
+   "c": "Atlanta",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-07",
+   "t": "22:00",
+   "a": "Sieger 1/16-Finale 13",
+   "b": "Sieger 1/16-Finale 15",
+   "c": "Vancouver",
+   "tv": "tbd",
+   "p": "r16"
+  },
+  {
+   "d": "2026-07-09",
+   "t": "22:00",
+   "a": "Sieger Achtelfinale 1",
+   "b": "Sieger Achtelfinale 2",
+   "c": "Boston",
+   "tv": "tbd",
+   "p": "qf"
+  },
+  {
+   "d": "2026-07-10",
+   "t": "21:00",
+   "a": "Sieger Achtelfinale 3",
+   "b": "Sieger Achtelfinale 4",
+   "c": "Los Angeles",
+   "tv": "tbd",
+   "p": "qf"
+  },
+  {
+   "d": "2026-07-11",
+   "t": "23:00",
+   "a": "Sieger Achtelfinale 5",
+   "b": "Sieger Achtelfinale 6",
+   "c": "Miami",
+   "tv": "tbd",
+   "p": "qf"
+  },
+  {
+   "d": "2026-07-12",
+   "t": "03:00",
+   "a": "Sieger Achtelfinale 7",
+   "b": "Sieger Achtelfinale 8",
+   "c": "Kansas City",
+   "tv": "tbd",
+   "p": "qf"
+  },
+  {
+   "d": "2026-07-14",
+   "t": "21:00",
+   "a": "Sieger Viertelfinale 1",
+   "b": "Sieger Viertelfinale 2",
+   "c": "Dallas",
+   "tv": "free",
+   "p": "sf"
+  },
+  {
+   "d": "2026-07-15",
+   "t": "21:00",
+   "a": "Sieger Viertelfinale 3",
+   "b": "Sieger Viertelfinale 4",
+   "c": "Atlanta",
+   "tv": "free",
+   "p": "sf"
+  },
+  {
+   "d": "2026-07-18",
+   "t": "23:00",
+   "a": "Verlierer Halbfinale 1",
+   "b": "Verlierer Halbfinale 2",
+   "c": "Miami",
+   "tv": "magenta",
+   "p": "tp"
+  },
+  {
+   "d": "2026-07-19",
+   "t": "21:00",
+   "a": "Sieger Halbfinale 1",
+   "b": "Sieger Halbfinale 2",
+   "c": "New York",
+   "tv": "zdf",
+   "p": "final"
+  }
+ ]
+}
