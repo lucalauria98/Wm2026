@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-23T00:55:28Z",
+ "updated": "2026-06-23T01:45:30Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -514,8 +514,8 @@
    "c": "New York",
    "tv": "magenta",
    "p": "group",
-   "sa": 1,
-   "sb": 0
+   "sa": 3,
+   "sb": 1
   },
   {
    "d": "2026-06-23",
@@ -828,7 +828,7 @@
   {
    "d": "2026-06-29",
    "t": "22:30",
-   "a": "1. Gruppe E",
+   "a": "Deutschland",
    "b": "3. Gr. A/B/C/D/F",
    "c": "Boston",
    "tv": "tbd",
@@ -864,7 +864,7 @@
   {
    "d": "2026-07-01",
    "t": "03:00",
-   "a": "1. Gruppe A",
+   "a": "Mexiko",
    "b": "3. Gr. C/E/F/H/I",
    "c": "Mexiko-Stadt",
    "tv": "tbd",
@@ -891,7 +891,7 @@
   {
    "d": "2026-07-02",
    "t": "02:00",
-   "a": "1. Gruppe D",
+   "a": "USA",
    "b": "3. Gr. B/E/F/I/J",
    "c": "San Francisco",
    "tv": "tbd",
