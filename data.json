@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-22T22:13:40Z",
+ "updated": "2026-06-23T00:55:28Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -502,7 +502,7 @@
    "c": "Philadelphia",
    "tv": "free",
    "p": "group",
-   "sa": 1,
+   "sa": 3,
    "sb": 0
   },
   {
@@ -513,7 +513,9 @@
    "g": "I",
    "c": "New York",
    "tv": "magenta",
-   "p": "group"
+   "p": "group",
+   "sa": 1,
+   "sb": 0
   },
   {
    "d": "2026-06-23",
