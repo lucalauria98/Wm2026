@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T04:57:02Z",
+ "updated": "2026-06-26T06:28:48Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -844,8 +844,8 @@
   {
    "d": "2026-06-28",
    "t": "21:00",
-   "a": "2. Gruppe A",
-   "b": "2. Gruppe B",
+   "a": "Südafrika",
+   "b": "Kanada",
    "c": "Los Angeles",
    "tv": "tbd",
    "p": "r32"
@@ -853,8 +853,8 @@
   {
    "d": "2026-06-29",
    "t": "19:00",
-   "a": "1. Gruppe C",
-   "b": "2. Gruppe F",
+   "a": "Brasilien",
+   "b": "Japan",
    "c": "Houston",
    "tv": "tbd",
    "p": "r32"
@@ -871,8 +871,8 @@
   {
    "d": "2026-06-30",
    "t": "03:00",
-   "a": "1. Gruppe F",
-   "b": "2. Gruppe C",
+   "a": "Niederlande",
+   "b": "Marokko",
    "c": "Monterrey",
    "tv": "tbd",
    "p": "r32"
@@ -926,7 +926,7 @@
    "d": "2026-07-02",
    "t": "02:00",
    "a": "USA",
-   "b": "3. Gr. B/E/F/I/J",
+   "b": "Bosnien-Herzegowina",
    "c": "San Francisco",
    "tv": "tbd",
    "p": "r32"
@@ -952,7 +952,7 @@
   {
    "d": "2026-07-03",
    "t": "05:00",
-   "a": "1. Gruppe B",
+   "a": "Schweiz",
    "b": "3. Gr. E/F/G/I/J",
    "c": "Vancouver",
    "tv": "tbd",
@@ -961,7 +961,7 @@
   {
    "d": "2026-07-03",
    "t": "20:00",
-   "a": "2. Gruppe D",
+   "a": "Australien",
    "b": "2. Gruppe G",
    "c": "Dallas",
    "tv": "tbd",
