@@ -15,6 +15,7 @@
   --ard:#3A75F0; --zdf:#FF8A3D; --free:#16A06A; --magenta:#FF2E9A; --tbd:#3a4576;
   --live:#FF4D4D; --night:#9B8CFF;
   --radius:16px;
+  --topbar-h:46px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
@@ -32,6 +33,22 @@ body{
 .tabnum{font-variant-numeric:tabular-nums}
 .wrap{max-width:700px;margin:0 auto;padding:0 16px}
 a{color:inherit}
+
+/* ---------- sticky top bar (global) ---------- */
+.topbar{position:sticky;top:0;z-index:50;background:rgba(12,17,42,.92);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar-in{max-width:700px;margin:0 auto;height:var(--topbar-h);padding:0 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px}
+.tb-date{display:flex;align-items:center;gap:8px;font-weight:800;font-size:13.5px;white-space:nowrap;flex:none}
+.tb-tick{width:7px;height:16px;border-radius:2px;background:var(--lime);flex:none}
+.tb-next{display:flex;align-items:center;gap:7px;min-width:0;overflow:hidden;
+  color:var(--muted);font-weight:700;font-size:13px}
+.tb-next .lbl{flex:none;color:var(--faint);font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+.tb-next .mt{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text)}
+.tb-next .mt b{color:var(--lime);font-weight:900;margin:0 4px}
+.tb-next .live{flex:none;color:var(--live);font-weight:900;text-transform:uppercase;font-size:11px;
+  display:inline-flex;align-items:center;gap:5px}
+.tb-next .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--live);animation:pulse 1.1s infinite}
 
 /* ---------- header ---------- */
 header{padding:30px 0 12px}
@@ -137,7 +154,7 @@ section{margin-top:30px}
 .nextbanner .cd b{color:var(--lime)}
 
 /* ---------- full schedule filters ---------- */
-.filters{position:sticky;top:0;z-index:30;background:rgba(12,17,42,.86);backdrop-filter:blur(12px);
+.filters{position:sticky;top:var(--topbar-h);z-index:30;background:rgba(12,17,42,.86);backdrop-filter:blur(12px);
   margin:0 -16px;padding:11px 16px 9px;border-bottom:1px solid var(--line)}
 .rail{display:flex;gap:7px;overflow-x:auto;padding-bottom:7px;scrollbar-width:none}
 .rail::-webkit-scrollbar{display:none}
@@ -155,7 +172,7 @@ section{margin-top:30px}
 .tog[data-disabled="1"]{opacity:.4;pointer-events:none}
 
 .daygroup{margin-top:18px}
-.dayhd{position:sticky;top:104px;z-index:10;display:flex;align-items:center;gap:9px;
+.dayhd{position:sticky;top:calc(var(--topbar-h) + 104px);z-index:10;display:flex;align-items:center;gap:9px;
   padding:7px 0;margin-bottom:9px;background:linear-gradient(var(--ink),var(--ink) 70%,transparent)}
 .dayhd .dd{font-weight:900;font-size:16px;text-transform:uppercase;letter-spacing:-0.01em}
 .dayhd.istoday .dd{color:var(--lime)}
@@ -180,7 +197,7 @@ footer .note{margin-top:6px}
   .chips{grid-template-columns:1fr}
   .bc .pill{font-size:11px;padding:4px 7px}
   .score{font-size:18px}
-  .dayhd{top:112px}
+  .dayhd{top:calc(var(--topbar-h) + 112px)}
 }
 @media(prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
@@ -189,6 +206,14 @@ footer .note{margin-top:6px}
 </style>
 </head>
 <body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="tb-date"><span class="tb-tick"></span><span id="tbDate"></span></div>
+    <div class="tb-next" id="tbNext"></div>
+  </div>
+</div>
+
 <div class="wrap">
 
   <header>
@@ -507,6 +532,31 @@ function card(m,opts){
  return '<div class="'+cls+'"><div class="time">'+timeInner+'</div>'+teams+right+'</div>';
 }
 
+/* ---------------- STICKY TOP-LEISTE ---------------- */
+function renderTopbar(){
+ const dEl=$("#tbDate"),nEl=$("#tbNext");
+ if(!dEl||!nEl)return;
+ const ds=dayShort(TODAY),mo=(TODAY.split("-")[1]==="07")?"Juli":"Juni";
+ dEl.textContent=ds.wd+" · "+ds.num+". "+mo;
+
+ const sorted=[...M].sort((a,b)=>startMs(a)-startMs(b));
+ const live=sorted.find(m=>matchState(m)==="live");
+ const next=sorted.find(m=>matchState(m)!=="past");
+
+ if(live){
+  const score=(live.sa!=null)?live.sa+":"+live.sb:"–";
+  nEl.innerHTML='<span class="live">Jetzt</span><span class="mt">'+
+   (FLAG[live.a]||"")+" "+esc(live.a)+'<b>'+score+'</b>'+esc(live.b)+" "+(FLAG[live.b]||"")+'</span>';
+ }else if(next){
+  const nds=dayShort(next.d);
+  const when=(next.d===TODAY?"":nds.wd+" ")+next.t+" Uhr";
+  nEl.innerHTML='<span class="lbl">Nächstes</span><span class="mt">'+esc(when)+" · "+
+   (FLAG[next.a]||"")+" "+esc(next.a)+" – "+esc(next.b)+" "+(FLAG[next.b]||"")+'</span>';
+ }else{
+  nEl.innerHTML='<span class="lbl">WM 2026</span><span class="mt">Turnier beendet 🏆</span>';
+ }
+}
+
 /* ---------------- HEUTE / MORGEN ---------------- */
 function renderHeute(){
  $("#heuteDate").textContent=dayLabel(TODAY);
@@ -631,6 +681,7 @@ $("#togFavs").addEventListener("click",()=>{if(!FAVS.size)return;FILTER.favs=!FI
 /* ---------------- init ---------------- */
 function boot(){
  recomputeDates();
+ renderTopbar();
  renderHeute();
  renderMorgen();
  renderPicker();
@@ -660,7 +711,7 @@ fetch("data.json",{cache:"no-store"})
  .catch(()=>{});
 
 // refresh live/past states every minute
-setInterval(()=>{renderHeute();renderMorgen();if(!FILTER.favs)renderAlle();},60000);
+setInterval(()=>{renderTopbar();renderHeute();renderMorgen();if(!FILTER.favs)renderAlle();},60000);
 </script>
 </body>
 </html>
