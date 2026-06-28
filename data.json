@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T05:02:41Z",
+ "updated": "2026-06-28T06:50:05Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -887,7 +887,7 @@
    "d": "2026-06-29",
    "t": "22:30",
    "a": "Deutschland",
-   "b": "3. Gr. A/B/C/D/F",
+   "b": "Paraguay",
    "c": "Boston",
    "tv": "tbd",
    "p": "r32"
@@ -905,7 +905,7 @@
    "d": "2026-06-30",
    "t": "19:00",
    "a": "Elfenbeinküste",
-   "b": "2. Gruppe I",
+   "b": "Norwegen",
    "c": "Dallas",
    "tv": "tbd",
    "p": "r32"
@@ -913,8 +913,8 @@
   {
    "d": "2026-06-30",
    "t": "23:00",
-   "a": "1. Gruppe I",
-   "b": "3. Gr. C/D/F/G/H",
+   "a": "Frankreich",
+   "b": "Schweden",
    "c": "New York",
    "tv": "tbd",
    "p": "r32"
@@ -923,7 +923,7 @@
    "d": "2026-07-01",
    "t": "03:00",
    "a": "Mexiko",
-   "b": "3. Gr. C/E/F/H/I",
+   "b": "Ecuador",
    "c": "Mexiko-Stadt",
    "tv": "tbd",
    "p": "r32"
@@ -931,8 +931,8 @@
   {
    "d": "2026-07-01",
    "t": "18:00",
-   "a": "1. Gruppe L",
-   "b": "3. Gr. E/H/I/J/K",
+   "a": "England",
+   "b": "DR Kongo",
    "c": "Atlanta",
    "tv": "tbd",
    "p": "r32"
@@ -940,8 +940,8 @@
   {
    "d": "2026-07-01",
    "t": "22:00",
-   "a": "1. Gruppe G",
-   "b": "3. Gr. A/E/H/I/J",
+   "a": "Belgien",
+   "b": "Senegal",
    "c": "Seattle",
    "tv": "tbd",
    "p": "r32"
@@ -958,8 +958,8 @@
   {
    "d": "2026-07-02",
    "t": "21:00",
-   "a": "1. Gruppe H",
-   "b": "2. Gruppe J",
+   "a": "Spanien",
+   "b": "Österreich",
    "c": "Los Angeles",
    "tv": "tbd",
    "p": "r32"
@@ -967,8 +967,8 @@
   {
    "d": "2026-07-03",
    "t": "01:00",
-   "a": "2. Gruppe K",
-   "b": "2. Gruppe L",
+   "a": "Portugal",
+   "b": "Kroatien",
    "c": "Toronto",
    "tv": "tbd",
    "p": "r32"
@@ -977,7 +977,7 @@
    "d": "2026-07-03",
    "t": "05:00",
    "a": "Schweiz",
-   "b": "3. Gr. E/F/G/I/J",
+   "b": "Algerien",
    "c": "Vancouver",
    "tv": "tbd",
    "p": "r32"
@@ -986,7 +986,7 @@
    "d": "2026-07-03",
    "t": "20:00",
    "a": "Australien",
-   "b": "2. Gruppe G",
+   "b": "Ägypten",
    "c": "Dallas",
    "tv": "tbd",
    "p": "r32"
@@ -995,7 +995,7 @@
    "d": "2026-07-04",
    "t": "00:00",
    "a": "Argentinien",
-   "b": "2. Gruppe H",
+   "b": "Kap Verde",
    "c": "Miami",
    "tv": "tbd",
    "p": "r32"
@@ -1003,8 +1003,8 @@
   {
    "d": "2026-07-04",
    "t": "03:30",
-   "a": "1. Gruppe K",
-   "b": "3. Gr. D/E/I/J/L",
+   "a": "Kolumbien",
+   "b": "Ghana",
    "c": "Kansas City",
    "tv": "tbd",
    "p": "r32"
