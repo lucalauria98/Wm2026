@@ -303,10 +303,6 @@ body:not([data-view="viewSpiele"]) footer{display:none}
 .dinfo .r+.r{border-top:1px solid var(--line)}
 .dinfo .r .k{color:var(--muted);font-weight:600}
 .dinfo .r .vv{font-weight:700;text-align:right}
-.dlineup{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:22px 16px;text-align:center}
-.dlineup .pitch{font-size:30px}
-.dlineup p{color:var(--text);font-weight:700;margin-top:10px;font-size:13.5px}
-.dlineup .why{color:var(--faint);font-size:11.5px;margin-top:6px;line-height:1.5}
 
 :focus-visible{outline:2px solid var(--lime);outline-offset:2px;border-radius:6px}
 </style>
@@ -943,10 +939,7 @@ function renderDetail(m){
      '<div class="drow">'+dteam(m.a)+scoreMid+dteam(m.b)+'</div>'+
      '<div class="dstatus'+statusCls+'">'+statusTxt+(ht&&hasScore?' · HZ '+ht[0]+":"+ht[1]:'')+'</div></div>'+
    '<div class="dsec"><h4>Spiel-Infos</h4><div class="dinfo">'+info+'</div></div>'+
-   '<div class="dsec"><h4>Aufstellungen</h4><div class="dlineup"><div class="pitch">🟩⚽</div>'+
-     '<p>Aufstellungen, Auswechslungen &amp; Spielerdaten</p>'+
-     '<div class="why">Der kostenlose API-Tarif liefert diese Daten nicht — sie gehören zum „Deep Data"-Plan (29 €/Monat). Sie erscheinen hier automatisch, sobald ein bezahlter Zugang eingerichtet ist.</div>'+
-   '</div></div></div>';
+   '</div>';
 }
 
 /* ---------------- favorites picker ---------------- */
