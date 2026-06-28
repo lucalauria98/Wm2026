@@ -135,6 +135,16 @@ def fetch_matches(token):
     return payload.get("matches", [])
 
 
+SCORERS_URL = "https://api.football-data.org/v4/competitions/WC/scorers?limit=25"
+
+
+def fetch_scorers(token):
+    req = urllib.request.Request(SCORERS_URL, headers={"X-Auth-Token": token})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+    return payload.get("scorers", [])
+
+
 def main():
     token = os.environ.get("FOOTBALL_DATA_API_KEY", "").strip()
     if not token:
@@ -183,9 +193,18 @@ def main():
 
         home = (am.get("homeTeam") or {}).get("name")
         away = (am.get("awayTeam") or {}).get("name")
-        ft = (am.get("score") or {}).get("fullTime") or {}
+        score = am.get("score") or {}
+        ft = score.get("fullTime") or {}
+        htsc = score.get("halfTime") or {}
         sh, sa_ = ft.get("home"), ft.get("away")
+        hh, ha = htsc.get("home"), htsc.get("away")
         status = am.get("status")
+
+        ref_name = None
+        for r in (am.get("referees") or []):
+            ref_name = r.get("name")
+            if (r.get("type") or "").upper() in ("REFEREE", "MAIN_REFEREE"):
+                break
 
         home_de = to_de(home)
         away_de = to_de(away)
@@ -229,7 +248,13 @@ def main():
         ):
             new[idx]["sa"] = int(sh)
             new[idx]["sb"] = int(sa_)
+            if hh is not None and ha is not None:
+                new[idx]["ht"] = [int(hh), int(ha)]
             scored += 1
+
+        # Schiedsrichter eintragen, sobald bekannt (sofern die API ihn liefert)
+        if ref_name:
+            new[idx]["ref"] = ref_name
 
     if unmatched:
         print(f"Nicht zugeordnet ({len(unmatched)}):")
@@ -238,12 +263,38 @@ def main():
 
     print(f"Zugeordnet: {matched} · mit Ergebnis: {scored}")
 
-    # Nur schreiben, wenn sich an den Spielen wirklich etwas geändert hat
-    if new == base:
+    # ----- Torschützenliste (eigene Free-Tier-Ressource) -----
+    old_scorers = data.get("scorers")
+    new_scorers = old_scorers
+    try:
+        raw_scorers = fetch_scorers(token)
+        new_scorers = []
+        for s in raw_scorers:
+            goals = s.get("goals")
+            if goals is None:
+                continue
+            player = s.get("player") or {}
+            team = s.get("team") or {}
+            new_scorers.append({
+                "name": player.get("name") or "?",
+                "team": to_de(team.get("name")) if team.get("name") else "",
+                "goals": int(goals),
+            })
+        print(f"Torschützen: {len(new_scorers)}")
+    except urllib.error.HTTPError as e:
+        print(f"Torschützen-Abruf: HTTP {e.code} {e.reason} (übersprungen)")
+    except Exception as e:  # noqa
+        print(f"Torschützen-Abruf fehlgeschlagen: {e} (übersprungen)")
+
+    matches_changed = (new != base)
+    scorers_changed = (new_scorers != old_scorers)
+    if not matches_changed and not scorers_changed:
         print("Keine Änderung – data.json bleibt unverändert.")
         return
 
     data["matches"] = new
+    if new_scorers is not None:
+        data["scorers"] = new_scorers
     data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
