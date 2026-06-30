@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-30T22:18:54Z",
+ "updated": "2026-06-30T22:51:54Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1312,7 +1312,7 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Danny Makkelie",
-   "sa": 2,
+   "sa": 3,
    "sb": 0,
    "ht": [
     1,
@@ -1556,14 +1556,14 @@
  ],
  "scorers": [
   {
-   "name": "Lionel Messi",
-   "team": "Argentinien",
+   "name": "Kylian Mbappé",
+   "team": "Frankreich",
    "goals": 6
   },
   {
-   "name": "Kylian Mbappé",
-   "team": "Frankreich",
-   "goals": 5
+   "name": "Lionel Messi",
+   "team": "Argentinien",
+   "goals": 6
   },
   {
    "name": "Erling Haaland",
