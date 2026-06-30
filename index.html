@@ -1039,19 +1039,26 @@ function showStand(iso){
  const f=new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).format(dt);
  el.textContent="Ergebnisse werden automatisch aktualisiert · Stand "+f+" Uhr";
 }
-fetch("data.json",{cache:"no-store"})
- .then(r=>r.ok?r.json():null)
- .then(data=>{
-  if(data&&Array.isArray(data.matches)&&data.matches.length){
+let lastUpdated=null;
+function loadData(){
+ return fetch("data.json",{cache:"no-store"})
+  .then(r=>r.ok?r.json():null)
+  .then(data=>{
+   if(!data||!Array.isArray(data.matches)||!data.matches.length)return;
+   if(data.updated&&data.updated===lastUpdated)return; // nichts Neues -> kein Re-Render
+   lastUpdated=data.updated;
    M=data.matches;
    if(Array.isArray(data.scorers))SCORERS=data.scorers;
    boot();
    showStand(data.updated);
-  }
- })
- .catch(()=>{});
+  })
+  .catch(()=>{});
+}
+loadData();
+// alle 2 Min frische Ergebnisse holen (data.json hält der Roboter aktuell)
+setInterval(loadData,120000);
 
-// refresh live/past states every minute
+// Live-/Vorbei-Status jede Minute neu zeichnen (ohne Netz)
 setInterval(()=>{renderTopbar();renderHeute();renderMorgen();if(!FILTER.favs)renderAlle();if(curView!=="viewSpiele")renderView(curView);},60000);
 </script>
 </body>

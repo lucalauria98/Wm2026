@@ -2,7 +2,9 @@ name: WM-Ergebnisse aktualisieren
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # alle 30 Minuten
+    - cron: "*/2 * * * *"    # Ziel: alle 2 Minuten (GitHub führt geplante Läufe
+                             # best-effort aus, real eher alle ~5+ Min, unter Last
+                             # auch verzögert)
   workflow_dispatch: {}        # erlaubt manuelles Starten per Knopf
 
 permissions:
