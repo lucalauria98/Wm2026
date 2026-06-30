@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-30T19:42:27Z",
+ "updated": "2026-06-30T21:10:16Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1311,7 +1311,9 @@
    "c": "New York",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Danny Makkelie"
+   "ref": "Danny Makkelie",
+   "sa": 0,
+   "sb": 0
   },
   {
    "d": "2026-07-01",
