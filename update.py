@@ -242,14 +242,23 @@ def main():
             if away_de:
                 new[idx]["b"] = away_de
 
+        # Orientierung: Gruppenspiele werden per (ungeordnetem) Team-Paar
+        # zugeordnet – die Plan-Reihenfolge a/b muss NICHT der Heim/Auswärts-
+        # Reihenfolge der API entsprechen. Tore daher passend zu a/b drehen,
+        # statt sie stur als Heim/Auswärts zu übernehmen (sonst vertauscht).
+        # (Bei K.o. wurde "a" gerade auf das Heimteam gesetzt -> swap=False.)
+        swap = (new[idx]["a"] == away_de) or (new[idx]["b"] == home_de)
+
         # Ergebnis eintragen (sobald vorhanden / Spiel beendet)
         if sh is not None and sa_ is not None and status in (
             "IN_PLAY", "PAUSED", "FINISHED", "AWARDED"
         ):
-            new[idx]["sa"] = int(sh)
-            new[idx]["sb"] = int(sa_)
+            g_home, g_away = int(sh), int(sa_)
+            new[idx]["sa"], new[idx]["sb"] = (
+                (g_away, g_home) if swap else (g_home, g_away)
+            )
             if hh is not None and ha is not None:
-                new[idx]["ht"] = [int(hh), int(ha)]
+                new[idx]["ht"] = [int(ha), int(hh)] if swap else [int(hh), int(ha)]
             scored += 1
 
         # Schiedsrichter eintragen, sobald bekannt (sofern die API ihn liefert)
