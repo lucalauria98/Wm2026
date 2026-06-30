@@ -749,6 +749,15 @@ function renderMeinPlan(){
 /* ---------------- VOLLER SPIELPLAN ---------------- */
 const FILTER={date:"all",free:false,favs:false};
 let DATES=[];
+let userPickedDate=false;
+/* Kalenderleiste so scrollen, dass "Heute" am Anfang steht (nur bis der
+   Nutzer selbst einen Tag wählt; vergangene Tage bleiben links erreichbar). */
+function scrollRailToToday(){
+ if(userPickedDate)return;
+ const rail=$("#rail"); if(!rail)return;
+ const t=rail.querySelector(".rchip.today"); if(!t)return;
+ rail.scrollLeft+=t.getBoundingClientRect().left-rail.getBoundingClientRect().left-6;
+}
 function recomputeDates(){DATES=[...new Set(M.map(m=>m.d))].sort();}
 recomputeDates();
 
@@ -758,6 +767,7 @@ function renderRail(){
  h+=DATES.map(d=>{const s=dayShort(d);const today=d===TODAY;
    return '<div class="rchip'+(FILTER.date===d?" on":"")+(today?" today":"")+'" data-date="'+d+'"><span class="num">'+s.num+'</span><span class="wd">'+(today?"Heute":s.wd)+'</span></div>';}).join("");
  rail.innerHTML=h;
+ requestAnimationFrame(scrollRailToToday);
 }
 function passFilter(m){
  if(FILTER.date!=="all"&&m.d!==FILTER.date)return false;
@@ -968,7 +978,7 @@ $("#pickDone").addEventListener("click",()=>$("#picker").classList.remove("open"
 $("#pickReset").addEventListener("click",()=>{FAVS.clear();saveFavs();renderPicker();renderMeinPlan();renderHeute();renderMorgen();if(FILTER.favs){FILTER.favs=false;$("#togFavs").classList.remove("on");}renderAlle();});
 $("#pickerGrid").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c)toggleTeam(c.dataset.team);});
 
-$("#rail").addEventListener("click",e=>{const c=e.target.closest(".rchip");if(!c)return;FILTER.date=c.dataset.date;renderRail();renderAlle();});
+$("#rail").addEventListener("click",e=>{const c=e.target.closest(".rchip");if(!c)return;userPickedDate=true;FILTER.date=c.dataset.date;renderRail();renderAlle();});
 $("#togFree").addEventListener("click",()=>{FILTER.free=!FILTER.free;$("#togFree").classList.toggle("on",FILTER.free);renderAlle();});
 $("#togFavs").addEventListener("click",()=>{if(!FAVS.size)return;FILTER.favs=!FILTER.favs;$("#togFavs").classList.toggle("on",FILTER.favs);renderAlle();});
 
@@ -1019,7 +1029,7 @@ function boot(){
 document.body.setAttribute("data-view","viewSpiele");
 boot();
 window.addEventListener("resize",setAppbarH);
-window.addEventListener("load",setAppbarH);
+window.addEventListener("load",()=>{setAppbarH();scrollRailToToday();});
 
 /* Live-Daten (Ergebnisse + K.o.-Teams) aus data.json holen — wird vom GitHub-Roboter aktuell gehalten */
 function showStand(iso){
