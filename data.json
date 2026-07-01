@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T01:28:03Z",
+ "updated": "2026-07-01T02:27:19Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1584,6 +1584,11 @@
    "goals": 4
   },
   {
+   "name": "Julián Quiñones",
+   "team": "Mexiko",
+   "goals": 3
+  },
+  {
    "name": "Ismael Saibari",
    "team": "Marokko",
    "goals": 3
@@ -1642,11 +1647,6 @@
    "name": "Ismaïla Sarr",
    "team": "Senegal",
    "goals": 3
-  },
-  {
-   "name": "Julián Quiñones",
-   "team": "Mexiko",
-   "goals": 2
   },
   {
    "name": "Cyle Larin",
