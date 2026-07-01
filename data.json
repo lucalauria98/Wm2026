@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T14:10:10Z",
+ "updated": "2026-07-01T17:01:21Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1343,7 +1343,13 @@
    "c": "Atlanta",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Adham Makhadmeh"
+   "ref": "Adham Makhadmeh",
+   "sa": 0,
+   "sb": 1,
+   "ht": [
+    0,
+    1
+   ]
   },
   {
    "d": "2026-07-01",
