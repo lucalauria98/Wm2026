@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T17:01:21Z",
+ "updated": "2026-07-01T17:43:56Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1344,7 +1344,7 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Adham Makhadmeh",
-   "sa": 0,
+   "sa": 1,
    "sb": 1,
    "ht": [
     0,
@@ -1590,6 +1590,11 @@
    "goals": 4
   },
   {
+   "name": "Harry Kane",
+   "team": "England",
+   "goals": 4
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "Frankreich",
    "goals": 4
@@ -1622,11 +1627,6 @@
   {
    "name": "Yoane Wissa",
    "team": "DR Kongo",
-   "goals": 3
-  },
-  {
-   "name": "Harry Kane",
-   "team": "England",
    "goals": 3
   },
   {
