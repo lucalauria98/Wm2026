@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T20:42:43Z",
+ "updated": "2026-07-01T21:15:50Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1361,7 +1361,11 @@
    "p": "r32",
    "ref": "Said Martinez",
    "sa": 0,
-   "sb": 1
+   "sb": 1,
+   "ht": [
+    0,
+    1
+   ]
   },
   {
    "d": "2026-07-02",
@@ -1603,6 +1607,11 @@
    "goals": 4
   },
   {
+   "name": "Ismaïla Sarr",
+   "team": "Senegal",
+   "goals": 4
+  },
+  {
    "name": "Julián Quiñones",
    "team": "Mexiko",
    "goals": 3
@@ -1655,11 +1664,6 @@
   {
    "name": "Cody Gakpo",
    "team": "Niederlande",
-   "goals": 3
-  },
-  {
-   "name": "Ismaïla Sarr",
-   "team": "Senegal",
    "goals": 3
   },
   {
