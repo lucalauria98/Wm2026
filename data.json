@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T21:52:47Z",
+ "updated": "2026-07-01T22:24:51Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1360,7 +1360,7 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Said Martinez",
-   "sa": 0,
+   "sa": 2,
    "sb": 2,
    "ht": [
     0,
@@ -1374,7 +1374,8 @@
    "b": "Bosnien-Herzegowina",
    "c": "San Francisco",
    "tv": "tbd",
-   "p": "r32"
+   "p": "r32",
+   "ref": "Raphael Claus"
   },
   {
    "d": "2026-07-02",
