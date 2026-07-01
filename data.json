@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T18:27:55Z",
+ "updated": "2026-07-01T20:42:43Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1359,7 +1359,9 @@
    "c": "Seattle",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Said Martinez"
+   "ref": "Said Martinez",
+   "sa": 0,
+   "sb": 1
   },
   {
    "d": "2026-07-02",
