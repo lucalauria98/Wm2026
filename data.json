@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T02:27:19Z",
+ "updated": "2026-07-01T03:50:38Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1328,8 +1328,12 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Slavko Vinčič",
-   "sa": 0,
-   "sb": 0
+   "sa": 2,
+   "sb": 0,
+   "ht": [
+    2,
+    0
+   ]
   },
   {
    "d": "2026-07-01",
@@ -1649,6 +1653,11 @@
    "goals": 3
   },
   {
+   "name": "Raúl Jiménez",
+   "team": "Mexiko",
+   "goals": 2
+  },
+  {
    "name": "Cyle Larin",
    "team": "Kanada",
    "goals": 2
@@ -1676,11 +1685,6 @@
   {
    "name": "Yasin Ayari",
    "team": "Schweden",
-   "goals": 2
-  },
-  {
-   "name": "Maximiliano Araújo",
-   "team": "Uruguay",
    "goals": 2
   }
  ]
