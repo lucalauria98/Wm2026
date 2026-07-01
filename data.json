@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-30T23:23:47Z",
+ "updated": "2026-07-01T01:28:03Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1327,7 +1327,9 @@
    "c": "Mexiko-Stadt",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Slavko Vinčič"
+   "ref": "Slavko Vinčič",
+   "sa": 0,
+   "sb": 0
   },
   {
    "d": "2026-07-01",
