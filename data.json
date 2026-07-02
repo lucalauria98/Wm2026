@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-02T08:25:10Z",
+ "updated": "2026-07-02T17:12:39Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1390,7 +1390,8 @@
    "b": "Österreich",
    "c": "Los Angeles",
    "tv": "tbd",
-   "p": "r32"
+   "p": "r32",
+   "ref": "Glenn Nyberg"
   },
   {
    "d": "2026-07-03",
