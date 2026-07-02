@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-02T20:11:40Z",
+ "updated": "2026-07-02T21:33:38Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1392,7 +1392,7 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Glenn Nyberg",
-   "sa": 1,
+   "sa": 3,
    "sb": 0,
    "ht": [
     1,
@@ -1406,7 +1406,8 @@
    "b": "Kroatien",
    "c": "Toronto",
    "tv": "tbd",
-   "p": "r32"
+   "p": "r32",
+   "ref": "Espen Eskås"
   },
   {
    "d": "2026-07-03",
@@ -1616,6 +1617,11 @@
    "goals": 4
   },
   {
+   "name": "Mikel Oyarzabal",
+   "team": "Spanien",
+   "goals": 4
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "Frankreich",
    "goals": 4
@@ -1683,11 +1689,6 @@
   {
    "name": "Cody Gakpo",
    "team": "Niederlande",
-   "goals": 3
-  },
-  {
-   "name": "Mikel Oyarzabal",
-   "team": "Spanien",
    "goals": 3
   },
   {
