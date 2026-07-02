@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-02T17:12:39Z",
+ "updated": "2026-07-02T20:11:40Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1391,7 +1391,13 @@
    "c": "Los Angeles",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Glenn Nyberg"
+   "ref": "Glenn Nyberg",
+   "sa": 1,
+   "sb": 0,
+   "ht": [
+    1,
+    0
+   ]
   },
   {
    "d": "2026-07-03",
@@ -1680,6 +1686,11 @@
    "goals": 3
   },
   {
+   "name": "Mikel Oyarzabal",
+   "team": "Spanien",
+   "goals": 3
+  },
+  {
    "name": "Raúl Jiménez",
    "team": "Mexiko",
    "goals": 2
@@ -1702,11 +1713,6 @@
   {
    "name": "Amad Diallo",
    "team": "Elfenbeinküste",
-   "goals": 2
-  },
-  {
-   "name": "Yasin Ayari",
-   "team": "Schweden",
    "goals": 2
   }
  ]
