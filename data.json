@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-01T22:53:37Z",
+ "updated": "2026-07-02T01:14:04Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1375,7 +1375,13 @@
    "c": "San Francisco",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Raphael Claus"
+   "ref": "Raphael Claus",
+   "sa": 1,
+   "sb": 0,
+   "ht": [
+    1,
+    0
+   ]
   },
   {
    "d": "2026-07-02",
@@ -1618,6 +1624,11 @@
    "goals": 3
   },
   {
+   "name": "Folarin Balogun",
+   "team": "USA",
+   "goals": 3
+  },
+  {
    "name": "Ismael Saibari",
    "team": "Marokko",
    "goals": 3
@@ -1675,11 +1686,6 @@
   {
    "name": "Cyle Larin",
    "team": "Kanada",
-   "goals": 2
-  },
-  {
-   "name": "Folarin Balogun",
-   "team": "USA",
    "goals": 2
   },
   {
