@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T16:53:42Z",
+ "updated": "2026-07-03T18:09:31Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1439,7 +1439,9 @@
    "c": "Dallas",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Gustavo Tejera"
+   "ref": "Gustavo Tejera",
+   "sa": 0,
+   "sb": 0
   },
   {
    "d": "2026-07-04",
