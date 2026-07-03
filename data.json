@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T21:50:28Z",
+ "updated": "2026-07-03T22:49:08Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1455,7 +1455,9 @@
    "c": "Miami",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Drew Fischer"
+   "ref": "Drew Fischer",
+   "sa": 1,
+   "sb": 0
   },
   {
    "d": "2026-07-04",
@@ -1613,13 +1615,13 @@
  ],
  "scorers": [
   {
-   "name": "Kylian Mbappé",
-   "team": "Frankreich",
-   "goals": 6
-  },
-  {
    "name": "Lionel Messi",
    "team": "Argentinien",
+   "goals": 7
+  },
+  {
+   "name": "Kylian Mbappé",
+   "team": "Frankreich",
    "goals": 6
   },
   {
