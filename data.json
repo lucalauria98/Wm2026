@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T01:20:55Z",
+ "updated": "2026-07-03T05:05:52Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1409,7 +1409,7 @@
    "p": "r32",
    "ref": "Espen Eskås",
    "sa": 2,
-   "sb": 2,
+   "sb": 1,
    "ht": [
     0,
     0
@@ -1423,7 +1423,13 @@
    "c": "Vancouver",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Yael Falcón"
+   "ref": "Yael Falcón",
+   "sa": 2,
+   "sb": 0,
+   "ht": [
+    1,
+    0
+   ]
   },
   {
    "d": "2026-07-03",
@@ -1714,13 +1720,13 @@
    "goals": 2
   },
   {
-   "name": "Crysencio Summerville",
-   "team": "Niederlande",
+   "name": "Breel Embolo",
+   "team": "Schweiz",
    "goals": 2
   },
   {
-   "name": "Daichi Kamada",
-   "team": "Japan",
+   "name": "Crysencio Summerville",
+   "team": "Niederlande",
    "goals": 2
   }
  ]
