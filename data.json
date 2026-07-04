@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04T05:31:10Z",
+ "updated": "2026-07-04T08:13:07Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1518,8 +1518,8 @@
   {
    "d": "2026-07-06",
    "t": "21:00",
-   "a": "Sieger 1/16-Finale 11",
-   "b": "Sieger 1/16-Finale 12",
+   "a": "Portugal",
+   "b": "Spanien",
    "c": "Dallas",
    "tv": "tbd",
    "p": "r16"
@@ -1536,8 +1536,8 @@
   {
    "d": "2026-07-07",
    "t": "18:00",
-   "a": "Sieger 1/16-Finale 14",
-   "b": "Sieger 1/16-Finale 16",
+   "a": "Argentinien",
+   "b": "Ägypten",
    "c": "Atlanta",
    "tv": "tbd",
    "p": "r16"
@@ -1545,8 +1545,8 @@
   {
    "d": "2026-07-07",
    "t": "22:00",
-   "a": "Sieger 1/16-Finale 13",
-   "b": "Sieger 1/16-Finale 15",
+   "a": "Schweiz",
+   "b": "Kolumbien",
    "c": "Vancouver",
    "tv": "tbd",
    "p": "r16"
