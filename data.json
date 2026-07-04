@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T23:51:20Z",
+ "updated": "2026-07-04T01:49:37Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1456,8 +1456,8 @@
    "tv": "tbd",
    "p": "r32",
    "ref": "Drew Fischer",
-   "sa": 1,
-   "sb": 1,
+   "sa": 3,
+   "sb": 2,
    "ht": [
     1,
     0
@@ -1471,7 +1471,9 @@
    "c": "Kansas City",
    "tv": "tbd",
    "p": "r32",
-   "ref": "Clément Turpin"
+   "ref": "Clément Turpin",
+   "sa": 1,
+   "sb": 0
   },
   {
    "d": "2026-07-04",
