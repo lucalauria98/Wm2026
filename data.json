@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04T22:10:14Z",
+ "updated": "2026-07-04T23:13:27Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1505,7 +1505,7 @@
    "p": "r16",
    "ref": "Il'giz Tantashev",
    "sa": 0,
-   "sb": 0,
+   "sb": 1,
    "ht": [
     0,
     0
@@ -1640,14 +1640,14 @@
  ],
  "scorers": [
   {
-   "name": "Lionel Messi",
-   "team": "Argentinien",
+   "name": "Kylian Mbappé",
+   "team": "Frankreich",
    "goals": 7
   },
   {
-   "name": "Kylian Mbappé",
-   "team": "Frankreich",
-   "goals": 6
+   "name": "Lionel Messi",
+   "team": "Argentinien",
+   "goals": 7
   },
   {
    "name": "Erling Haaland",
