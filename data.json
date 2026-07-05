@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05T20:41:19Z",
+ "updated": "2026-07-05T22:41:01Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1520,8 +1520,12 @@
    "tv": "tbd",
    "p": "r16",
    "ref": "Ismail Elfath",
-   "sa": 0,
-   "sb": 0
+   "sa": 1,
+   "sb": 2,
+   "ht": [
+    0,
+    0
+   ]
   },
   {
    "d": "2026-07-06",
@@ -1530,7 +1534,8 @@
    "b": "England",
    "c": "Mexiko-Stadt",
    "tv": "tbd",
-   "p": "r16"
+   "p": "r16",
+   "ref": "Alireza Faghani"
   },
   {
    "d": "2026-07-06",
@@ -1648,14 +1653,14 @@
    "goals": 7
   },
   {
-   "name": "Lionel Messi",
-   "team": "Argentinien",
+   "name": "Erling Haaland",
+   "team": "Norwegen",
    "goals": 7
   },
   {
-   "name": "Erling Haaland",
-   "team": "Norwegen",
-   "goals": 5
+   "name": "Lionel Messi",
+   "team": "Argentinien",
+   "goals": 7
   },
   {
    "name": "Harry Kane",
