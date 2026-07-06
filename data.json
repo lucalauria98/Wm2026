@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05T22:41:01Z",
+ "updated": "2026-07-06T06:03:01Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1665,11 +1665,21 @@
   {
    "name": "Harry Kane",
    "team": "England",
-   "goals": 5
+   "goals": 6
+  },
+  {
+   "name": "Julián Quiñones",
+   "team": "Mexiko",
+   "goals": 4
   },
   {
    "name": "Vinicius Junior",
    "team": "Brasilien",
+   "goals": 4
+  },
+  {
+   "name": "Jude Bellingham",
+   "team": "England",
    "goals": 4
   },
   {
@@ -1688,7 +1698,7 @@
    "goals": 4
   },
   {
-   "name": "Julián Quiñones",
+   "name": "Raúl Jiménez",
    "team": "Mexiko",
    "goals": 3
   },
@@ -1753,11 +1763,6 @@
    "goals": 3
   },
   {
-   "name": "Raúl Jiménez",
-   "team": "Mexiko",
-   "goals": 2
-  },
-  {
    "name": "Cyle Larin",
    "team": "Kanada",
    "goals": 2
@@ -1765,11 +1770,6 @@
   {
    "name": "Breel Embolo",
    "team": "Schweiz",
-   "goals": 2
-  },
-  {
-   "name": "Crysencio Summerville",
-   "team": "Niederlande",
    "goals": 2
   }
  ]
