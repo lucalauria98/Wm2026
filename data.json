@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T01:21:55Z",
+ "updated": "2026-07-07T05:15:25Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1563,7 +1563,7 @@
    "p": "r16",
    "ref": "Adham Makhadmeh",
    "sa": 1,
-   "sb": 2,
+   "sb": 4,
    "ht": [
     1,
     2
@@ -1777,13 +1777,13 @@
    "goals": 3
   },
   {
-   "name": "Cyle Larin",
-   "team": "Kanada",
-   "goals": 2
+   "name": "Romelu Lukaku",
+   "team": "Belgien",
+   "goals": 3
   },
   {
-   "name": "Breel Embolo",
-   "team": "Schweiz",
+   "name": "Cyle Larin",
+   "team": "Kanada",
    "goals": 2
   }
  ]
