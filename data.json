@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06T22:24:15Z",
+ "updated": "2026-07-07T01:21:55Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1561,7 +1561,13 @@
    "c": "Seattle",
    "tv": "tbd",
    "p": "r16",
-   "ref": "Adham Makhadmeh"
+   "ref": "Adham Makhadmeh",
+   "sa": 1,
+   "sb": 2,
+   "ht": [
+    1,
+    2
+   ]
   },
   {
    "d": "2026-07-07",
