@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T16:13:22Z",
+ "updated": "2026-07-07T18:22:21Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1577,7 +1577,13 @@
    "c": "Atlanta",
    "tv": "tbd",
    "p": "r16",
-   "ref": "François Letexier"
+   "ref": "François Letexier",
+   "sa": 3,
+   "sb": 2,
+   "ht": [
+    0,
+    1
+   ]
   },
   {
    "d": "2026-07-07",
@@ -1586,7 +1592,8 @@
    "b": "Kolumbien",
    "c": "Vancouver",
    "tv": "tbd",
-   "p": "r16"
+   "p": "r16",
+   "ref": "Ivan Barton"
   },
   {
    "d": "2026-07-09",
@@ -1663,6 +1670,11 @@
  ],
  "scorers": [
   {
+   "name": "Lionel Messi",
+   "team": "Argentinien",
+   "goals": 8
+  },
+  {
    "name": "Kylian Mbappé",
    "team": "Frankreich",
    "goals": 7
@@ -1670,11 +1682,6 @@
   {
    "name": "Erling Haaland",
    "team": "Norwegen",
-   "goals": 7
-  },
-  {
-   "name": "Lionel Messi",
-   "team": "Argentinien",
    "goals": 7
   },
   {
