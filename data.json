@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-09T20:25:32Z",
+ "updated": "2026-07-09T21:57:29Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1610,8 +1610,12 @@
    "tv": "tbd",
    "p": "qf",
    "ref": "Facundo Tello",
-   "sa": 0,
-   "sb": 0
+   "sa": 2,
+   "sb": 0,
+   "ht": [
+    0,
+    0
+   ]
   },
   {
    "d": "2026-07-10",
@@ -1679,14 +1683,14 @@
  ],
  "scorers": [
   {
-   "name": "Lionel Messi",
-   "team": "Argentinien",
+   "name": "Kylian Mbappé",
+   "team": "Frankreich",
    "goals": 8
   },
   {
-   "name": "Kylian Mbappé",
-   "team": "Frankreich",
-   "goals": 7
+   "name": "Lionel Messi",
+   "team": "Argentinien",
+   "goals": 8
   },
   {
    "name": "Erling Haaland",
@@ -1697,6 +1701,11 @@
    "name": "Harry Kane",
    "team": "England",
    "goals": 6
+  },
+  {
+   "name": "Ousmane Dembélé",
+   "team": "Frankreich",
+   "goals": 5
   },
   {
    "name": "Julián Quiñones",
@@ -1716,11 +1725,6 @@
   {
    "name": "Mikel Oyarzabal",
    "team": "Spanien",
-   "goals": 4
-  },
-  {
-   "name": "Ousmane Dembélé",
-   "team": "Frankreich",
    "goals": 4
   },
   {
