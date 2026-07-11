@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T22:26:07Z",
+ "updated": "2026-07-11T23:27:51Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1642,8 +1642,8 @@
    "tv": "tbd",
    "p": "qf",
    "ref": "Clément Turpin",
-   "sa": 2,
-   "sb": 1,
+   "sa": 1,
+   "sb": 2,
    "ht": [
     1,
     1
@@ -1656,7 +1656,8 @@
    "b": "Schweiz",
    "c": "Kansas City",
    "tv": "tbd",
-   "p": "qf"
+   "p": "qf",
+   "ref": "João Pinheiro"
   },
   {
    "d": "2026-07-14",
@@ -1719,7 +1720,7 @@
   {
    "name": "Jude Bellingham",
    "team": "England",
-   "goals": 5
+   "goals": 6
   },
   {
    "name": "Ousmane Dembélé",
