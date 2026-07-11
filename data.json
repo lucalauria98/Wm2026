@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T21:28:32Z",
+ "updated": "2026-07-11T22:26:07Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1642,8 +1642,12 @@
    "tv": "tbd",
    "p": "qf",
    "ref": "Clément Turpin",
-   "sa": 0,
-   "sb": 0
+   "sa": 2,
+   "sb": 1,
+   "ht": [
+    1,
+    1
+   ]
   },
   {
    "d": "2026-07-12",
@@ -1713,6 +1717,11 @@
    "goals": 6
   },
   {
+   "name": "Jude Bellingham",
+   "team": "England",
+   "goals": 5
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "Frankreich",
    "goals": 5
@@ -1725,11 +1734,6 @@
   {
    "name": "Vinicius Junior",
    "team": "Brasilien",
-   "goals": 4
-  },
-  {
-   "name": "Jude Bellingham",
-   "team": "England",
    "goals": 4
   },
   {
