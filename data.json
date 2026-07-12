@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T23:27:51Z",
+ "updated": "2026-07-12T01:06:15Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1657,7 +1657,9 @@
    "c": "Kansas City",
    "tv": "tbd",
    "p": "qf",
-   "ref": "João Pinheiro"
+   "ref": "João Pinheiro",
+   "sa": 0,
+   "sb": 0
   },
   {
    "d": "2026-07-14",
