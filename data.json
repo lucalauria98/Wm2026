@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T17:36:58Z",
+ "updated": "2026-07-14T19:59:38Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1673,7 +1673,13 @@
    "c": "Dallas",
    "tv": "free",
    "p": "sf",
-   "ref": "Ivan Barton"
+   "ref": "Ivan Barton",
+   "sa": 0,
+   "sb": 1,
+   "ht": [
+    0,
+    1
+   ]
   },
   {
    "d": "2026-07-15",
@@ -1730,6 +1736,11 @@
    "goals": 6
   },
   {
+   "name": "Mikel Oyarzabal",
+   "team": "Spanien",
+   "goals": 5
+  },
+  {
    "name": "Ousmane Dembélé",
    "team": "Frankreich",
    "goals": 5
@@ -1742,11 +1753,6 @@
   {
    "name": "Vinicius Junior",
    "team": "Brasilien",
-   "goals": 4
-  },
-  {
-   "name": "Mikel Oyarzabal",
-   "team": "Spanien",
    "goals": 4
   },
   {
