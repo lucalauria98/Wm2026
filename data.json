@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T20:17:45Z",
+ "updated": "2026-07-15T21:26:08Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1690,8 +1690,8 @@
    "tv": "free",
    "p": "sf",
    "ref": "Ismail Elfath",
-   "sa": 0,
-   "sb": 0,
+   "sa": 1,
+   "sb": 2,
    "ht": [
     0,
     0
@@ -1838,8 +1838,8 @@
    "goals": 3
   },
   {
-   "name": "Charles De Ketelaere",
-   "team": "Belgien",
+   "name": "Lautaro Martínez",
+   "team": "Argentinien",
    "goals": 3
   }
  ]
