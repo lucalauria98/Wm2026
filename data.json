@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T21:26:08Z",
+ "updated": "2026-07-16T06:37:48Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1701,7 +1701,7 @@
    "d": "2026-07-18",
    "t": "23:00",
    "a": "Frankreich",
-   "b": "Verlierer Halbfinale 2",
+   "b": "England",
    "c": "Miami",
    "tv": "magenta",
    "p": "tp"
@@ -1710,7 +1710,7 @@
    "d": "2026-07-19",
    "t": "21:00",
    "a": "Spanien",
-   "b": "Sieger Halbfinale 2",
+   "b": "Argentinien",
    "c": "New York",
    "tv": "zdf",
    "p": "final"
