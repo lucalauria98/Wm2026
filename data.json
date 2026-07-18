@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T19:31:08Z",
+ "updated": "2026-07-18T21:12:16Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1705,7 +1705,9 @@
    "c": "Miami",
    "tv": "magenta",
    "p": "tp",
-   "ref": "Jesús Valenzuela"
+   "ref": "Jesús Valenzuela",
+   "sa": 0,
+   "sb": 1
   },
   {
    "d": "2026-07-19",
