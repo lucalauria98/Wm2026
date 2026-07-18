@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T22:08:13Z",
+ "updated": "2026-07-18T23:08:57Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1706,8 +1706,8 @@
    "tv": "magenta",
    "p": "tp",
    "ref": "Jesús Valenzuela",
-   "sa": 0,
-   "sb": 4,
+   "sa": 4,
+   "sb": 6,
    "ht": [
     0,
     4
@@ -1727,7 +1727,7 @@
   {
    "name": "Kylian Mbappé",
    "team": "Frankreich",
-   "goals": 8
+   "goals": 10
   },
   {
    "name": "Lionel Messi",
@@ -1740,23 +1740,23 @@
    "goals": 7
   },
   {
+   "name": "Jude Bellingham",
+   "team": "England",
+   "goals": 7
+  },
+  {
    "name": "Harry Kane",
    "team": "England",
    "goals": 6
   },
   {
-   "name": "Jude Bellingham",
-   "team": "England",
+   "name": "Ousmane Dembélé",
+   "team": "Frankreich",
    "goals": 6
   },
   {
    "name": "Mikel Oyarzabal",
    "team": "Spanien",
-   "goals": 5
-  },
-  {
-   "name": "Ousmane Dembélé",
-   "team": "Frankreich",
    "goals": 5
   },
   {
@@ -1805,6 +1805,11 @@
    "goals": 3
   },
   {
+   "name": "Bradley Barcola",
+   "team": "Frankreich",
+   "goals": 3
+  },
+  {
    "name": "Yoane Wissa",
    "team": "DR Kongo",
    "goals": 3
@@ -1842,11 +1847,6 @@
   {
    "name": "Romelu Lukaku",
    "team": "Belgien",
-   "goals": 3
-  },
-  {
-   "name": "Lautaro Martínez",
-   "team": "Argentinien",
    "goals": 3
   }
  ]
