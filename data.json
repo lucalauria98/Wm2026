@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T17:16:50Z",
+ "updated": "2026-07-19T20:26:19Z",
  "matches": [
   {
    "d": "2026-06-11",
@@ -1721,7 +1721,13 @@
    "c": "New York",
    "tv": "zdf",
    "p": "final",
-   "ref": "Slavko Vinčič"
+   "ref": "Slavko Vinčič",
+   "sa": 0,
+   "sb": 0,
+   "ht": [
+    0,
+    0
+   ]
   }
  ],
  "scorers": [
